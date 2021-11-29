@@ -1,0 +1,5 @@
+runtime-endpoint: unix:///run/crio/crio.sock
+image-endpoint: unix:///run/crio/crio.sock
+timeout: 2
+#debug: true
+pull-image-on-create: false

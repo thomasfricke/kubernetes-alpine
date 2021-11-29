@@ -1,0 +1,6 @@
+http://ftp.halifax.rwth-aachen.de/alpine/v3.15/main
+http://ftp.halifax.rwth-aachen.de/alpine/edge/community
+http://ftp.halifax.rwth-aachen.de/alpine/edge/testing
+
+@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing/
+@community http://dl-cdn.alpinelinux.org/alpine/edge/community

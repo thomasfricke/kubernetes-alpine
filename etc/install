@@ -1,0 +1,21 @@
+apk add $( cat <<EOF
+gnupg
+fuse-overlayfs
+shadow
+slirp4netns
+cri-o
+cri-tools
+ip6tables
+kubernetes
+kubectl
+kubelet
+kubeadm
+podman
+EOF
+)
+
+rc-update add cgroups
+rc-service cgroups start
+
+rc-update add crio
+rc-service crio start
