@@ -43,9 +43,9 @@ cd /
 
 tar xfz etc.tgz
 
-## Installation
-
 ```
+
+## Installation
 
 Execute the installation `source /etc/install` and if 
 everything works `source /etc/kubeinstall` will create a 
