@@ -7,6 +7,31 @@ This installation assumes an empty fresh Alpine 3.15
 ## Configuration
 
 All configurations files are in the `etc` directory. Please review with care and adapt it to your needs.
+Especially `fstab` needs to be adapted to your local file system, including uuids.
+
+```bash
+
+etc
+├── apk
+│   └── repositories
+├── cni
+│   └── net.d
+│       └── 10-crio-ipv4-bridge.conf
+├── crictl.yaml
+├── fstab
+├── install
+├── kubeinstall
+├── modules-load.d
+│   └── k8s.conf
+├── ssh
+│   └── sshd_config
+├── subgid
+├── subuid
+├── sysctl.conf
+└── sysctl.d
+    └── k8s.conf
+
+```
 
 The configuration needs to be tared `tar cfz etc.tgz etc` and moved to the Alpine host system.
 
